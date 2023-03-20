@@ -1,7 +1,6 @@
-/*  your css code here. If applicable */
-.toggle{
+/* .toggle{
 	display:none;
-}
+} */
 label{
 	width:100px;
 	height:50px;
@@ -22,7 +21,7 @@ label > div{
 	top:5%;
 	left:3%
 }
-#good:checked + label{
+input#good.toggle:checked, #good:checked + label{
 	background-color:darkviolet;
 	width:100px;
 	height:50px;
