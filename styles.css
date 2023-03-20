@@ -22,12 +22,12 @@ label > div{
 	top:5%;
 	left:3%
 }
-input:checked + label{
+#good:checked + label{
 	background-color:darkviolet;
 	width:100px;
 	height:50px;
 }
-input:checked + label > div {
+#good:checked + label > div {
 	position:absolute;
 	left:47%;
 }
